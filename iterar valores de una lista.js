@@ -87,3 +87,4 @@ const amigos2 = [
 
 const { edad } = amigos2.find(a => a.amigo === "tomas");
 console.log(edad);
+
