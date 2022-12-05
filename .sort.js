@@ -3,7 +3,9 @@ const array = [2, 13, 23, 42, 55, 222];
 
 
 // es obligatorio que retorne un valor numerico (positivo negativo ó 0)
+
 // si pasa negativo a es menor que b
+
 // array.sort(() => {})
 
 const nuevoArray = array.sort((a,b) => {
