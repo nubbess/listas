@@ -9,6 +9,12 @@ console.log(array);
 
 const arPer = ["julian", "paula", "maria", "manuel"];
 
-arPer.sort((a, b) => a - b)
+arPer.sort((a, b) => {
+    return b - a
+})
 
+console.log(arPer)
+
+arPer.reverse()
+ 
 console.log(arPer)
